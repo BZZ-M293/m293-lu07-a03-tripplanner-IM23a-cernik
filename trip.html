@@ -1,13 +1,449 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Reisebuchungs-Formular</title>
+    <meta charset="UTF-8">
+    <title>Reisebuchungs-Formular</title>
 
 </head>
 <body>
 
 <h1>Reisebuchungs-Formular</h1>
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <fieldset>
+        <legend>
+            Abflughafen
+        </legend>
+        <label for="abflughafen">
+            Abflughafen:
+        </label>
+        <select id="abflughafen" name="Abflughafen" size="1">
+            <optgroup label="Deutschland">
+                <option>
+                    Berlin Brandenburg
+                </option>
+                <option>
+                    Bremen
+                </option>
+                <option>
+                    Dresden
+                </option>
+                <option>
+                    Düsseldorf
+                </option>
+                <option>
+                    Erfurt-Weimar
+                </option>
+                <option>
+                    Frankfurt
+                </option>
+                <option>
+                    Hamburg
+                </option>
+                <option>
+                    Hannover
+                </option>
+                <option>
+                    Köln
+                </option>
+                <option>
+                    Leipzig
+                </option>
+                <option>
+                    München
+                </option>
+                <option>
+                    Münster
+                </option>
+                <option>
+                    Nürnberg
+                </option>
+                <option>
+                    Saarbrücken
+                </option>
+                <option>
+                    Stuttgart
+                </option>
+            </optgroup>
+            <optgroup label="Österreich">
+                <option>
+                    Wien-Schwechat
+                </option>
+                <option>
+                    Salzburg
+                </option>
+                <option>
+                    Innsbruck
+                </option>
+                <option>
+                    Graz
+                </option>
+                <option>
+                    Linz
+                </option>
+                <option>
+                    Klagenfurt
+                </option>
+            </optgroup>
+            <optgroup label="Italien">
+                <option>
+                    Alghero
+                </option>
+                <option>
+                    Ancona
+                </option>
+                <option>
+                    Bari
+                </option>
+                <option>
+                    Bergamo
+                </option>
+                <option>
+                    Bologna
+                </option>
+                <option>
+                    Brindisi
+                </option>
+                <option>
+                    Cagliari
+                </option>
+                <option>
+                    Catania
+                </option>
+                <option>
+                    Comiso
+                </option>
+                <option>
+                    Crotone
+                </option>
+                <option>
+                    Cuneo
+                </option>
+                <option>
+                    Florenz
+                </option>
+                <option>
+                    Forlì
+                </option>
+                <option>
+                    Genua
+                </option>
+                <option>
+                    Lamezia Terme
+                </option>
+                <option>
+                    Lampedusa
+                </option>
+                <option>
+                    Mailand-Linate
+                </option>
+                <option>
+                    Mailand-Malpensa
+                </option>
+                <option>
+                    Neapel
+                </option>
+                <option>
+                    Olbia
+                </option>
+                <option>
+                    Palermo-Punta Raisi
+                </option>
+                <option>
+                    Pantelleria
+                </option>
+                <option>
+                    Parma
+                </option>
+                <option>
+                    Perugia
+                </option>
+                <option>
+                    Pescara
+                </option>
+                <option>
+                    Pisa
+                </option>
+                <option>
+                    Reggio Calabria
+                </option>
+                <option>
+                    Rimini
+                </option>
+                <option>
+                    Rom-Ciampino
+                </option>
+                <option>
+                    Rom-Fiumicino
+                </option>
+                <option>
+                    Trapani
+                </option>
+                <option>
+                    Treviso
+                </option>
+                <option>
+                    Triest
+                </option>
+                <option>
+                    Turin
+                </option>
+                <option>
+                    Venedig-Tessera
+                </option>
+                <option>
+                    Verona
+                </option>
+            </optgroup>
+            <optgroup label="Frankreich">
+                <option>
+                    Ajaccio
+                </option>
+                <option>
+                    Bastia
+                </option>
+                <option>
+                    Bergerac
+                </option>
+                <option>
+                    Biarritz
+                </option>
+                <option>
+                    Bordeaux
+                </option>
+                <option>
+                    Brest
+                </option>
+                <option>
+                    Caen
+                </option>
+                <option>
+                    Calvi
+                </option>
+                <option>
+                    Carcassonne
+                </option>
+                <option>
+                    Chambéry
+                </option>
+                <option>
+                    Clermont-Ferrand
+                </option>
+                <option>
+                    Deauville
+                </option>
+                <option>
+                    Figari
+                </option>
+                <option>
+                    Grenoble
+                </option>
+                <option>
+                    La Rochelle
+                </option>
+                <option>
+                    Lille
+                </option>
+                <option>
+                    Limoges
+                </option>
+                <option>
+                    Lyon
+                </option>
+                <option>
+                    Marseille
+                </option>
+                <option>
+                    Metz-Nancy
+                </option>
+                <option>
+                    Montpellier
+                </option>
+                <option>
+                    Nantes
+                </option>
+                <option>
+                    Nice
+                </option>
+                <option>
+                    Paris-Beauvais
+                </option>
+                <option>
+                    Paris-Charles de Gaulle
+                </option>
+                <option>
+                    Paris-Orly
+                </option>
+                <option>
+                    Pau
+                </option>
+                <option>
+                    Perpignan
+                </option>
+                <option>
+                    Poitiers
+                </option>
+                <option>
+                    Quimper
+                </option>
+                <option>
+                    Rennes
+                </option>
+                <option>
+                    Rodez
+                </option>
+                <option>
+                    Strasbourg
+                </option>
+                <option>
+                    Toulon
+                </option>
+                <option>
+                    Toulouse
+                </option>
+                <option>
+                    Tours
+                </option>
+                <option>
+                    Bastia-Poretta
+                </option>
+                <option>
+                    Calvi-Sainte-Catherine
+                </option>
+                <option>
+                    Figari-Sud Corse
+                </option>
+                <option>
+                    Ajaccio-Napoléon Bonaparte
+                </option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Unterkunft
+        </legend>
+        <input type="radio" id="hotel" name="Unterkunft" value="hotel">
+        <label for="hotel">Hotel</label>
+        <input type="radio" id="ferienwohnung" name="Unterkunft"
+               value="ferienwohnung">
+        <label for="ferienwohnung">Ferienwohnung</label>
+        <input type="radio" id="hostel" name="Unterkunft" value="hostel">
+        <label for="hostel">Hostel</label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Zusatzleistungen
+        </legend>
+        <input id="reiseversicherung" type="checkbox" name="zusatzleistungen[]"
+               value="reiseversicherung">
+        <label for="reiseversicherung">Reiseversicherung</label>
+        <input id="flughafentransfer" type="checkbox" name="zusatzleistungen[]"
+               value="flughafentransfer">
+        <label for="flughafentransfer">Flughafentransfer</label>
+        <input id="zusatz_gepäck" type="checkbox" name="zusatzleistungen[]"
+               value="zusatz_gepäck">
+        <label for="zusatz_gepäck">Zusatz Gepäck</label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Reisedauer
+        </legend>
+        <label for="anfangsdatum">
+            Anfangsdatum
+        </label>
+        <input type="date" id="anfangsdatum" name="Anfangsdatum">
+        <label for="enddatum">
+            Enddatum
+        </label>
+        <input type="date" id="enddatum" name="Enddatum">
+        <label for="reisedauer">
+            Reisedauer in Tagen
+        </label>
+        <input type="number" id="reisedauer" name="Reisedauer" min="1" max="21">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Personenanzahl
+        </legend>
+        <label for="personenanzahl">
+            Personenanzahl
+        </label>
+        <input type="number" id="personenanzahl" name="Personenanzahl" min="1">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Airline
+        </legend>
+        <label for="airline">
+            <select id="airline" name="Airline" size="1">
+                <option>
+                    Swiss
+                </option>
+                <option>
+                    Edelweiss
+                </option>
+                <option>
+                    Lufthansa
+                </option>
+                <option>
+                    Air France
+                </option>
+                <option>
+                    Austrian Airlines
+                </option>
+                <option>
+                    ITA Airways
+                </option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Airline Zusatzleistungen
+        </legend>
+        <input id="priority_check_in" type="checkbox"
+               name="air_zusatzleistungen[]"
+               value="Priority Check-In">
+        <label for="priority_check_in">Priority Check-In</label>
+        <input id="zusatz_handgepäck" type="checkbox"
+               name="air_zusatzleistungen[]"
+               value="zusatz_handgepäck">
+        <label for="zusatz_handgepäck">Zusätzliches Handgepäck</label>
+        <input id="mietwagen" type="checkbox" name="air_zusatzleistungen[]"
+               value="mietwagen">
+        <label for="mietwagen">Mietwagen</label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Reiseziele
+        </legend>
+        <label for="reiseziele">
+            Reiseziel
+        </label>
+        <input type="search" list="reisezielliste" id="reiseziele"
+               name="Reiseziele">
+        <datalist id="reisezielliste">
+            <option value="Grossmünster"></option>
+            <option value="Hallenstadion"></option>
+            <option value="Zürich Hauptbahnhof"></option>
+            <option value="Bundeshaus"></option>
+            <option value="Bodensee"></option>
+            <option value="Genfer See"></option>
+            <option value="Lugano"></option>
+        </datalist>
+    </fieldset>
+    <fieldset>
+        <legend>
+            E-Mail
+        </legend>
+        <label for="email">
+            E-Mail
+        </label>
+        <input type="email" id="email" name="E-Mail">
+    </fieldset>
+    <button type="reset">Zurücksetzen</button>
+    <button type="submit">Absenden</button>
+</form>
 
 
 </body>
